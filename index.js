@@ -1,3 +1,4 @@
+const  theWorld =`
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -703,3 +704,6 @@ h2 a{
     </style>
 </body>
 </html>
+
+`
+document.write("theWorld")
