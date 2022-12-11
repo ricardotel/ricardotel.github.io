@@ -1,1 +1,0 @@
-# ricardotel.github.io
