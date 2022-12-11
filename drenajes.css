@@ -680,6 +680,9 @@ h2 a{
     a.header__enterprise{
         display: none;
     }
+    .header__enter{
+    text-align: center
+    }
     a{
         text-align: justify;
     }
@@ -726,6 +729,9 @@ h2 a{
 .allfoo{
     text-align:center justify;
     font-size:20px
+}
+.header__enter{
+text-align: center
 }
 #header__enterprise{
     font-size: 50px !important;
