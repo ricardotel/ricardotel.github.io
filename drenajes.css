@@ -597,6 +597,9 @@ h2 a{
         width: 100%;
         overflow-x: hidden;
     }
+    .allfoo{
+    text-align:center justify;
+}
     h2 a{
         text-align: center;
     }
