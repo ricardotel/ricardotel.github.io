@@ -592,6 +592,19 @@ h2 a{
     text-align: justify center;
     width: 400px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1100px){
     footer,body{
         width: 100%;
@@ -678,6 +691,24 @@ h2 a{
         max-width: 400px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:500px){
 *{
     font-size: 25px !important ;
@@ -694,6 +725,7 @@ h2 a{
 }
 .allfoo{
     text-align:center justify;
+    font-size:20px
 }
 #header__enterprise{
     font-size: 50px !important;
