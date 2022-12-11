@@ -672,6 +672,7 @@ h2 a{
     }
     .justify{
         text-align: center;
+        max-width: 400px;
     }
 }
 @media (max-width:500px){
@@ -687,6 +688,9 @@ h2 a{
 .terrains__image{
     box-shadow: 7px 7px 7px 7px #181a3b;
     transform: translateX(15px);
+}
+.allfoo{
+    text-align:center justify;
 }
 #header__enterprise{
     font-size: 50px !important;
