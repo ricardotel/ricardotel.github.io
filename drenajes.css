@@ -392,7 +392,7 @@ h2{
     justify-content: space-between;
     align-items: center;
     opacity: 0.9;
-    padding: 30px;
+    padding: 10px;
     height: 90vh;
 }
 .space__text{
@@ -647,7 +647,7 @@ display:none;
     .space__text{
         width: 80%;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 30px;
         z-index: 10;
         font-size:25px;
     }
