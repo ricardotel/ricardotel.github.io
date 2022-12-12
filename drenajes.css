@@ -621,7 +621,7 @@ h2 a{
         display: none;
     }
     .header__enterprise{
-        font-size: 50px;
+        font-size: 60px;
         z-index: 100;
         transform: translateY(100);
     }
