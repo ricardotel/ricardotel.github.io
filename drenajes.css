@@ -714,7 +714,7 @@ h2 a{
 
 @media (max-width:500px){
 *{
-    font-size: 25px !important ;
+    font-size: 20px  ;
 }
 .space__text{
     text-align:justify;
