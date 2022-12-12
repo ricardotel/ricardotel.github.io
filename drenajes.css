@@ -616,7 +616,7 @@ h2 a{
     .allfoo{
     text-align:center justify;
 }
-    h2 a{
+    a{
         text-align: center;
         font-size:20px;
     }
