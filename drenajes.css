@@ -614,12 +614,9 @@ h2 a{
         overflow-x: hidden;
     }
     .allfoo{
-    text-align:center justify;
-}
-    a{
-        text-align: center;
+    text-align:center ;
         font-size:20px;
-    }
+}
     body > section.header > div.header__links{
         display: none;
     }
