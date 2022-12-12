@@ -611,9 +611,6 @@ display:none;
     *{
     font-size:25px;
     }
-    br{
-    display:block;
-    }
     footer,body{
         width: 100%;
         overflow-x: hidden;
