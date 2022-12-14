@@ -603,7 +603,9 @@ flex-direction: row-reverse;
 .service__recava{
 flex-direction: row-reverse;
 }
-
+h2{
+font-size:60px;
+}
 
 
 
