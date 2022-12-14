@@ -598,11 +598,11 @@ br{
 display:none;
 }
 .service__jarillon{
-    flex-direction: row-reverse;
-    }
-    .service__recava{
-    flex-direction: row-reverse;
-    }
+flex-direction: row-reverse;
+}
+.service__recava{
+flex-direction: row-reverse;
+}
 
 
 
