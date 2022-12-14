@@ -434,6 +434,9 @@ h2{
     filter: drop-shadow(15px 15px #ff6500);
     margin-right: 25px;
 }
+service__semidome{
+display:none;
+}
 .footer{
     height: 40vh;
     width: 100%;
