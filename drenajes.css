@@ -609,7 +609,9 @@ font-size:50px;
 strong span{
     font-size:inherit;
 }
-
+.barr{
+    font-weight:500;
+}
 
 
 
