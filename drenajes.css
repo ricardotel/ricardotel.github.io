@@ -707,6 +707,9 @@ font-size:50px;
         text-align: center;
         max-width: 400px;
     }
+    strong{
+        font-size:40px;
+}
 }
 strong{
         font-size:50px;
@@ -724,6 +727,9 @@ strong{
 @media (max-width:500px){
 *{
     font-size: 20px  ;
+}
+strong{
+    font-size:40px;
 }
 br{
 display:block;
