@@ -274,7 +274,6 @@ body > section.header > div.header__links > ul > li:nth-child(2) > ul > li > a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 30px 0;
     padding: 0 10px;
     height: 400px;
     width: 100%;
