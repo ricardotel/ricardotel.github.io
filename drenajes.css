@@ -609,8 +609,9 @@ font-size:50px;
 strong span{
     font-size:inherit;
 }
-.barr{
-    font-weight:500;
+.allfoo{
+    font-weight:bold;
+    max-width:700px;
 }
 
 
