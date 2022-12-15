@@ -142,7 +142,7 @@ body > section.header > div.header__links > ul > li:nth-child(2) > ul > li > a{
     background-size:cover ;
 }
 .canalsecond{
-    background-image: url(img/canales+.jpg);
+    background-image: url(https://github.com/ricardotel/ricardotel.github.io/blob/main/img/canales%2B.jpeg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -758,7 +758,7 @@ text-align: justify
     font-size: 60px !important;
 }
 }
-body > footer > div.hidden > div > h2 > a > span{
+body > footer > div.hidden > div > h2 > a{
 font-size:20px;
 }
 @keyframes aparecer{
