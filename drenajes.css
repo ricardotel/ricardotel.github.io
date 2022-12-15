@@ -625,6 +625,9 @@ font-size:50px;
         width: 100%;
         overflow-x: hidden;
     }
+    .visible{
+    display:none;
+    }
     .allfoo{
     text-align:center ;
         font-size:20px;
