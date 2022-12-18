@@ -149,7 +149,7 @@ body > section.header > div.header__links > ul > li:nth-child(2) > ul > li > a{
 }
 .recava{
     background-image: url(img/recava-da.jpeg);
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -304,7 +304,7 @@ form{
     border-radius:10px;
 }
 .terrains__image{
-    width: 700px;
+    width: 900px;
     height: 400px;
     right: 10px;
 }
