@@ -621,6 +621,19 @@ strong span{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1100px){ 
     footer,body{
         width: 100%;
@@ -685,8 +698,8 @@ strong span{
         display:none;
     }
     .terrains__image{
-        height: 70%;
-        width: 70%;
+        height: 80%;
+        width: 85%;
     }
     .service{
         display: flex;
@@ -718,6 +731,26 @@ strong span{
 strong{
         font-size:50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
