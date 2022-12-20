@@ -13,9 +13,6 @@ html{
 body{
     position: relative;
 }
-.cont-slider{
-display:none
-}
 .header{
     height: 150px;
     width: 100%;
@@ -616,7 +613,9 @@ strong span{
     font-weight:bold;
     max-width:700px;
 }
-
+  .cont-slider{
+        diplay:none;
+    }
 
 
 
@@ -639,7 +638,7 @@ strong span{
 
 @media (max-width:1100px){ 
     .cont-slider{
-        diplay:flex;
+        diplay:block;
     }
     img{
         border-radius:20px;
