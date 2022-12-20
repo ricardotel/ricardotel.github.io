@@ -13,6 +13,9 @@ html{
 body{
     position: relative;
 }
+.cont-slider{
+display:none
+}
 .header{
     height: 150px;
     width: 100%;
@@ -635,6 +638,12 @@ strong span{
 
 
 @media (max-width:1100px){ 
+    .cont-slider{
+        diplay:flex;
+    }
+    img{
+        border-radius:20px;
+    }
     footer,body{
         width: 100%;
         overflow-x: hidden;
