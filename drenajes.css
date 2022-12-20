@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: arial;
+    font-size: 20px;
     scroll-behavior: smooth;
 }
 html{
@@ -142,13 +143,13 @@ body > section.header > div.header__links > ul > li:nth-child(2) > ul > li > a{
     background-size:cover ;
 }
 .canalsecond{
-    background-image: url(img/canales+.jpeg);
+    background-image: url(img/tunel.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .recava{
-    background-image: url(img/recava-da.jpeg);
+    background-image: url(img/harillon.jpeg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -273,7 +274,7 @@ body > section.header > div.header__links > ul > li:nth-child(2) > ul > li > a{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin:30px 0;
+    margin: 30px 0;
     padding: 0 10px;
     height: 400px;
     width: 100%;
@@ -304,8 +305,8 @@ form{
     border-radius:10px;
 }
 .terrains__image{
-    width: 900px;
-    height: 400px;
+    width: 700px;
+    height: 350px;
     right: 10px;
 }
 .justify{
@@ -391,13 +392,14 @@ h2{
     justify-content: space-between;
     align-items: center;
     opacity: 0.9;
+    padding: 30px;
     height: 90vh;
 }
 .space__text{
     height: 50vh;
     width: 50%;
     margin-top: 400px;
-    font-size: 25px;
+    font-size: 30px;
     text-align: justify;
 }
 .contain__silueta{
@@ -432,9 +434,6 @@ h2{
     height: 70vh;
     filter: drop-shadow(15px 15px #ff6500);
     margin-right: 25px;
-}
-service__semidome{
-display:none;
 }
 .footer{
     height: 40vh;
@@ -561,6 +560,9 @@ p{
     font-size: 20px;
 }
 
+h2{
+    font-size:60px;
+    }
 .header__entre > .hidden{
     display: flex;
     width: 100%;
@@ -579,6 +581,7 @@ p{
     height: 500px;
     transform: translateX(-10px);
 }
+
 .hidden{
     display: flex;
     align-items: center;
@@ -593,72 +596,34 @@ h2 a{
     text-align: justify center;
     width: 400px;
 }
-br{
-display:none;
-}
-.service__jarillon{
-flex-direction: row-reverse;
-}
-.service__recava{
-flex-direction: row-reverse;
-}
-h2{
-font-size:50px;
+
+.cont-slider{
+    display: none;
 }
 
-strong span{
-    font-size:inherit;
-}
-.allfoo{
-    font-weight:bold;
-    max-width:700px;
-}
-  .cont-slider{
-        diplay:none;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width:1100px){ 
-    .cont-slider{
-        diplay:block;
-    }
-    img{
-        border-radius:20px;
-    }
+@media (max-width:1100px){
     footer,body{
         width: 100%;
         overflow-x: hidden;
     }
-    .visible{
-    display:none;
+    .cont-slider{
+        display: block;
+        border: 20px;
     }
-    .allfoo{
-    text-align:center ;
-        font-size:20px;
-}
+    img{
+        border-radius: 30px;
+    }
+    .services{
+        display: none;
+    }
+    h2 a{
+        text-align: center;
+    }
     body > section.header > div.header__links{
         display: none;
     }
     .header__enterprise{
-        font-size: 60px;
+        font-size: 50px;
         z-index: 100;
         transform: translateY(100);
     }
@@ -682,9 +647,8 @@ strong span{
     .space__text{
         width: 80%;
         margin: auto;
-        margin-top: 30px;
+        margin-top: 60px;
         z-index: 10;
-        font-size:25px;
     }
     .space{
         height:400px ;
@@ -706,8 +670,8 @@ strong span{
         display:none;
     }
     .terrains__image{
-        height: 80%;
-        width: 85%;
+        height: 50%;
+        width: 70%;
     }
     .service{
         display: flex;
@@ -719,12 +683,6 @@ strong span{
     a.header__enterprise{
         display: none;
     }
-    .services{
-    display:none
-    }
-    .header__enter{
-    text-align: center
-    }
     a{
         text-align: justify;
     }
@@ -733,54 +691,11 @@ strong span{
     }
     .justify{
         text-align: center;
-        max-width: 400px;
     }
-    strong{
-        font-size:40px;
 }
-}
-strong{
-        font-size:50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width:500px){
 *{
-    font-size: 20px  ;
-}
-strong{
-    font-size:40px;
-}
-br{
-display:block;
+    font-size: 20px ;
 }
 .space__text{
     text-align:justify;
@@ -792,32 +707,29 @@ display:block;
     box-shadow: 7px 7px 7px 7px #181a3b;
     transform: translateX(15px);
 }
-.allfoo{
-    justify-content:center;
-    font-size:20px;
-    text-align:center;
-       
-}
-.header__enter{
-text-align: justify
-}
 #header__enterprise{
-    font-size: 60px !important;
+    font-size: 50px !important;    
 }
+a{
+    font-size: 27px !important;
+    text-align: justify ;
 }
-body > footer > div.hidden > div > h2 > a{
-font-size:20px;
 }
 @keyframes aparecer{
-    0%{opacity: 0;
-
+    0%{
+        opacity: 0;
     }
     100%{
         opacity:1;
     }
-
-
 }
+.service__jarillon{
+    flex-direction: row-reverse;
+}
+.service__recava{
+    flex-direction: row-reverse;
+}
+
 .cont-slider{
     width: 80%;
     margin: auto;
