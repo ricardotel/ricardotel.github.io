@@ -305,7 +305,7 @@ form{
     border-radius:10px;
 }
 .terrains__image{
-    width: 700px;
+    width: 900px;
     height: 350px;
     right: 10px;
 }
@@ -596,14 +596,28 @@ h2 a{
     width: 400px;
 }
 input{
-    visibility: hidden;
+    display: none;
 }
 .cont-slider{
     display: none;
 }
+.menu{
+    display: none;
+}
+.header{
+    z-index: 2000;
+    position: relative;
+}
 @media (max-width:1100px){
+    input{
+        display: block;
+        visibility: hidden;
+    }
     .header{
-        position: static;
+        height: 150px;
+    }
+    .menu{
+        display: flex;
     }
     label{
         background: url(/prime/img/menu.svg);
@@ -617,14 +631,15 @@ input{
         z-index: 111;
     }
     .menu{
-        transition:  clip-path 2s ;
-        clip-path: circle(0.3% at 100% 0);
+        transition:  clip-path 1s ;
+        clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #181818;    
+        background-color: #000000e7;    
         z-index: 100;
         text-align: center;
         justify-content: flex-start;
@@ -633,12 +648,13 @@ input{
     }
     .stop{
         width: 100vh;
-        height: 40px;
+        height: 50px;
         text-align: end;
         padding-top: 7px;
         padding-right: 10px;
-        background-color:   rgb(28, 28, 28);
+        background-color: #1f1f1f;
         outline: solid 1px black;
+        font-size: 25px;
     }
     .stop:hover{
         background-color: #000;
@@ -652,11 +668,12 @@ input{
         gap: 2px;
         right: 10px;
         top: 200px;
+        padding: ;
     }
     section:has(input:checked)~ .space  .menu{
-        clip-path: circle(141.2% at 100% 0);
+        clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+
         transform-origin: center;
-        
     }
 
     footer,body{
