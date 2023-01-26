@@ -41,7 +41,7 @@ body{
     text-align: center;
     justify-content: center;
     display: flex;
-    border-radius: 3px;
+    border-radius: 100px;
     border-left: dashed white;
     border-right: dashed white;
 }
