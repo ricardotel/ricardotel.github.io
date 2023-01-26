@@ -125,12 +125,10 @@ body > section.header > div.header__links > ul > li:nth-child(2) > ul > li > a{
     background-image: url(img/zaxisy.jpg);
     width: 100%;
     height: 882px;
-    filter: grayscale(.2);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
-    z-index: 1 ;
 }
 .terrain{
     background-image: url(img/after1.jpeg);
