@@ -42,6 +42,8 @@ body{
     justify-content: center;
     display: flex;
     border-radius: 3px;
+    border-left: dashed white;
+    border-right: dashed white;
 }
 .header__enterprise{
     font-size: 75px;
