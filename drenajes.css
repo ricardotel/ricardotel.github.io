@@ -781,6 +781,9 @@ label{
 .justify{
     max-width: 400px;
 }
+.space__text {
+    font-size: 23px;
+}    
 .terrains__image{
     box-shadow: 7px 7px 7px 7px #181a3b;
     transform: translateX(15px);
